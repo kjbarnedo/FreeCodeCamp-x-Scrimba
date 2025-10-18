@@ -1,2 +1,40 @@
 @import "tailwindcss";
 
+*, *::after, *::before{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+     background-image: url('../src/assets/background1.jpg') ;
+     background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.header-content {
+    display: flex;
+    background-image: url('../src/assets/background1.jpg') ;
+    background-size: cover; 
+    color: wheat;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: inset 10px 10px 100px black;
+    border: 1px solid red;
+    padding: 1em;
+}
+nav > ul{
+    display: flex;
+    gap: 1em;
+}
+
+nav > ul > li {
+    padding: 1em;
+    border: 1px solid red;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
