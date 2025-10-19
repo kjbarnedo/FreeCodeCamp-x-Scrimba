@@ -41,7 +41,7 @@ body {
   animation: hueShift 8s linear infinite;
   position: absolute;
   inset: 0;
-  background-color: rgba(0, 0, 0, 0.874); /* 0.5 = 50% opacity */
+  background-color: rgba(0, 0, 0, 0.542); /* 0.5 = 50% opacity */
   z-index: 0;
 }
 

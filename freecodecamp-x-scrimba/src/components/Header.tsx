@@ -1,14 +1,15 @@
 import logo from "../assets/logo.png"
 import logoName from "../assets/logo-name.png"
 import headerVideo from '../assets/header.mp4'
+import React from "react"
 
-const Header = () => {
+const Header = ():React.JSX.Element => {
   return (
     <>
     <header className="header-content">
-      <video autoPlay loop muted className="bg-video" >
+      {/* <video autoPlay loop muted className="bg-video" >
         <source src={headerVideo} type="video/mp4"/>
-      </video>
+      </video> */}
       <div className="overlay"></div>
 
       <div className="logo-container">
